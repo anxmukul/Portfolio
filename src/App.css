@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+.Name-header {
+  margin-top: 25px;
+  vertical-align: start;
+  color: crimson;
+}
+.Nav-bar {
+  padding: 24px;
+  background-color: gray;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: darkred;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color:white;
+}
+.Personal-detail{
+  width: 500px;
+  border: 6px solid white;
+  padding: 30px;
+  margin: 20px;
+  margin-top: 2px;
+  margin-left: 475px;
+  background-color: whites;
+}
+.Achievement-box{
+  width: 500px;
+  border: 6px solid white;
+  padding: 50px;
+  margin: 20px;
+  margin-top: 2px;
+  margin-left: 475px;
+  background-color: whites;
+}
+.Knowledge{
+  width: 500px;
+  border: 6px solid white;
+  padding: 50px;
+  margin: 20px;
+  margin-top: 2px;
+  margin-left: 475px;
+  background-color: whites;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Buttom-part {
+  background-color: #282c34;
+  min-height: 25vh;
+  flex-direction: column;
+  color: white;
+  text-align: right;
+}
+.Connect-part{
+  float: left;
+  padding: 20px;
+  margin-left: 20px;
+  width: 650px;
+  text-align: center;
+}
+
+ol{
+  list-style: none;
+}
+
